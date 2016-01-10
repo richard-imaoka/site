@@ -1,12 +1,13 @@
 var gulp        = require('gulp');
-var browserSync = require('browser-sync');
+var browserSync = require('browser-sync').create();
 var cp          = require('child_process');
-var harp        = require('harp')
+var harp        = require('harp');
 
 gulp.task('serve', function (done) {
-  harp.server('.', {
-    port: 9000
-  });
+  cp.exec('harp server _src')
+  //harp.server('_src', {
+  //  port: 9000
+  //});
 });
 
 gulp.task('build', function (done) {
@@ -14,12 +15,25 @@ gulp.task('build', function (done) {
 });
 
 gulp.task('watch', function () {
-  gulp.watch("/**/*.{jade,styl,haml,sass,scss,less}", browserSync.reload)
+  console.log("hit watch");
+  gulp.watch("_src/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
+  gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
+  gulp.watch("_src/**/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
+  gulp.watch("_src/**/**/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
+  gulp.watch("_src/**/**/**/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
+
+  //gulp.watch("dist/*.{html,css,js}", browserSync.reload);
+  //gulp.watch("dist/**/*.{html,css,js}", browserSync.reload);
+  //gulp.watch("dist/**/**/*.{html,css,js}", browserSync.reload);
+  //gulp.watch("dist/**/**/**/*.{html,css,js}", browserSync.reload);
+  //gulp.watch("dist/**/**/**/**/*.{html,css,js}", browserSync.reload);
 });
 
 gulp.task('browser-sync', function() {
-  browserSync({
-    proxy: "localhost:9000"
+  //Start the Browsersync service. This will launch a server.
+  browserSync.init({
+      proxy: "localhost:9000",
   });
 });
+
 gulp.task('default', ['serve', 'browser-sync', 'watch']);
