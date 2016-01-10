@@ -15,24 +15,14 @@ gulp.task('build', function (done) {
 });
 
 gulp.task('watch', function () {
-  console.log("hit watch");
-  gulp.watch("_src/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
-  gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
-  gulp.watch("_src/**/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
-  gulp.watch("_src/**/**/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
-  gulp.watch("_src/**/**/**/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
-
-  //gulp.watch("dist/*.{html,css,js}", browserSync.reload);
-  //gulp.watch("dist/**/*.{html,css,js}", browserSync.reload);
-  //gulp.watch("dist/**/**/*.{html,css,js}", browserSync.reload);
-  //gulp.watch("dist/**/**/**/*.{html,css,js}", browserSync.reload);
-  //gulp.watch("dist/**/**/**/**/*.{html,css,js}", browserSync.reload);
+  gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs}",  ['build']);
+  gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs}",  browserSync.reload);
 });
 
 gulp.task('browser-sync', function() {
   //Start the Browsersync service. This will launch a server.
   browserSync.init({
-      proxy: "localhost:9000",
+      proxy: "localhost:9000"
   });
 });
 
