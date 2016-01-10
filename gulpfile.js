@@ -4,10 +4,7 @@ var cp          = require('child_process');
 var harp        = require('harp');
 
 gulp.task('serve', function (done) {
-  cp.exec('harp server _src')
-  //harp.server('_src', {
-  //  port: 9000
-  //});
+  cp.exec('harp server dist')
 });
 
 gulp.task('build', function (done) {
@@ -15,8 +12,8 @@ gulp.task('build', function (done) {
 });
 
 gulp.task('watch', function () {
-  gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs}",  ['build']);
-  gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs}",  browserSync.reload);
+  gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", browserSync.reload);
+  //gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs}", ['build']);
 });
 
 gulp.task('browser-sync', function() {
