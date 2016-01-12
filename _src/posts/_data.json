@@ -1,23 +1,6 @@
 {
-  "fourth_article": {
-    "title": "My 4th article"
-  },
-  "third_article": {
-    "title": "My 3rd article"
-  },
-  "second_article": {
-    "title": "My second article"
-  },
-  "first_article": {
-    "title": "My very first article"
-  },
-  "article1": {
-    "title": "My first post"
-  },
-  "article2": {
-    "title": "My second post"
-  },
-  "article3": {
-    "title": "My third post"
+  "about": {
+    "title": "About Richard Imaoka",
+    "description": "About Richard Imaoka - a professional programmer, and an amateur quant."
   }
 }
