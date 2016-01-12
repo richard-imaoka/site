@@ -12,6 +12,7 @@ gulp.task('build', function (done) {
 });
 
 gulp.task('watch', function () {
+gulp.task('watch', function () {
   gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs,json}", browserSync.reload);
   gulp.watch("_src/**/*.{jade,styl,haml,sass,scss,less,md,ejs,json}", ['build']);
 });
