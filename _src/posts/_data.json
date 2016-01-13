@@ -1,4 +1,9 @@
 {
+  "financial-engineering-in-software-projects": {
+    "title": "Financial Engineering of Software Projects",
+    "description": "Building software always comes with cost. And possibly more importantly, running software also incurs cost. We need ways to effectively quantify the cost of these activities",
+    "categories": ["quant software process"]
+  },
   "about": {
     "title": "About Richard Imaoka",
     "description": "About Richard Imaoka - a professional programmer, and an amateur quant."

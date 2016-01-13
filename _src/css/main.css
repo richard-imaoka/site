@@ -24,8 +24,8 @@ h6 {
 }
 
 h1{
-  font-size: 36px;
-  color:#fff;
+  font-size: 2em;
+  color: #ff8020;
 }
 
 h2{
@@ -2126,7 +2126,7 @@ ul.faq li > div h3 {
 
 .blog .blog-item .blog-content h2 {
   margin-top: 0;
-  font-size: 30px;
+  font-size: 1.5em;
 }
 
 .readmore{
@@ -2142,6 +2142,9 @@ ul.faq li > div h3 {
   font-size: 14px;
 }
 
+.blog .blog-item .blog-content figcaption {
+    font-size: 10px;
+}
 .post-tags {
 
 }
