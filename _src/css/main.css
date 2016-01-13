@@ -2127,6 +2127,8 @@ ul.faq li > div h3 {
 .blog .blog-item .blog-content h2 {
   margin-top: 0;
   font-size: 1.5em;
+  color: #20B8FF;
+  border-bottom: solid 1px;
 }
 
 .readmore{
