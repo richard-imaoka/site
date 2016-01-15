@@ -2128,7 +2128,8 @@ ul.faq li > div h3 {
   margin-top: 0;
   font-size: 1.5em;
   color: #20B8FF;
-  border-bottom: solid 1px;
+  padding-bottom: 5px;
+  border-bottom: solid 2px #bbbaf1;
 }
 
 .readmore{

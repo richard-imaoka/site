@@ -1,7 +1,14 @@
 {
+  "uncertainty-as-risk-in-software-project": {
+    "title": "Risk means Uncertainty in Financial Engineering, so is in Software Projects",
+    "description": "In Financial Engineering, the word 'risk' means uncertainty. For example, if you buy Facebook's stock you don't know its price tomorrow. That's uncertainty, and a risk. Similarly in software projects, you don't know when your project finishes. That is a risk too.",
+    "creationDate": "2016-01-14",
+    "categories": ["quant software process"]
+  },
   "financial-engineering-in-software-projects": {
     "title": "Financial Engineering of Software Projects",
     "description": "Through the history of computers, we have seen explosive growth in the software industry, and people have made tremendous but still ever-growing investment in technologies and methodologies in software development.",
+    "creationDate": "2016-01-13",
     "categories": ["quant software process"]
   },
   "about": {
