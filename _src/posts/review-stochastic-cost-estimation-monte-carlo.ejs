@@ -1,0 +1,88 @@
+<p style="text-align: center">
+  <a href="<%- references[0].link %>">"<%- references[0].title %>"</a>
+</p>
+
+<p>You can dowload the paper from the above link.</p>
+
+<h2>Monte Carlo Simulation in Finance</h2>
+
+<p>
+  Monte Carlo is a typical simulation technique for a random process,
+  In Financial Engineering, it is commonly used to calculate the price of an asset, especially complicated derivative assets.
+</p>
+
+<p>
+  Very briefly, it works as:
+  <ul>
+    <li>You model a random price movement of an asset (model means a Mathematical equation to describe the movement)</li>
+    <li>Run a simulation and then you see  a random price movement path</li>
+    <li>Repeat the simulation multiple times (1,000, 10,000, or 100,000 ... dependent on the problem)</li>
+    <li>See the resulting probability distribution, and take the average</li>
+  </ul>
+</p>
+
+<figure style="text-align:center">
+  <a title="By Sc1171 (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMonte_carlo_simulation.png">
+    <img style="max-width: 512px; width: 100%;" alt="Monte carlo simulation" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Monte_carlo_simulation.png"/>
+  </a>
+  <figcaption>By Sc1171 (Own work) [(<a href="http://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>)], via Wikimedia Commons</figcaption>
+</figure>
+
+<p>
+  Using Monte Carlo for a simple model like stock price doesn't make much sense, but <strong>Monte Carlo</strong> is a powerful tool for <strong>pricing complicated derivative</strong> assets,
+  where the pricing model is too complicated to derive an answer (i.e. the price) mathematically.
+  If you cannot solve the price mathematically, then Monte Carlo allows you to still price the derivative asset with a large number of simulations.
+</p>
+
+<h2>Monte Carlo in Software Engineering</h2>
+
+<p>So, how this paper used the Monte Carlo technique to estimate the software project risk? Firstly, it split a software project into multiple phases</p>
+
+<p>
+  <ul>
+    <li><strong>Planning and Bid Preparation</strong></li>
+    <li><strong>Requirements Definition</strong></li>
+    <li><strong>Analysis and Design</strong></li>
+    <li><strong>Code and Debug</strong></li>
+    <li><strong>Integrate and Test</strong></li>
+    <li><strong>Deployment and Acceptance</strong></li>
+  </ul>
+</p>
+
+<p>
+  Each phase of this is modeled as a random process (i.e.) it has a range of possible completion dates.
+  And each phase is modeled as a different a different random (e.g. different standard deviation, etc).
+</p>
+
+<p>The below is a figure from the paper, showing the results of 5,000 Monte Carlo simulations of the entire project.</p>
+
+<figure style="text-align:center">
+  <img src="/images/posts/monte-carlo.png" style="width: 100%; max-width: 787px;">
+</figure>
+
+<h2>What are the benefits, and challenges?</h2>
+
+<h3>Benefits</h3>
+
+<p>The paper provided a basic, but a powerful and standard framework to see how the possible project completion date distribution would look like. It is very similar to derivative pricing with Monte Carlo in Finance.</p>
+
+<p>Over time, you can tweak the model for each project phase, comparing the simulation with past-completed projects, and the models would be expected to be more accurate.</p>
+
+<h3>Challenges</h3>
+
+<p>There could be problems though, since it weighs historical data to predict the possible future project completion. If new technologies are introduced and they completely change the game, which is typical, historical projects do not predict future projects well.</p>
+
+<p>Also this paper is based on Water-fall like project style. Maybe Agile projects need a bit different modeling.</p>
+
+<p>However, this is still an informative paper providing probabilistic view on software project management.</p>
+
+<div>
+  <h2>References</h2>
+  <div class="references">
+    <ol>
+      <% for(var i in references){ %>
+      <li><%- references[i].author %>, <a href="<%- references[i].link %>"><strong>"<%- references[i].title %>"</strong></a>, <%- references[i].citation %></li>
+      <% } %>
+    </ol>
+  </div>
+</div>

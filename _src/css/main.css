@@ -2531,6 +2531,14 @@ shortcodes page css
 }
 
 
+.references {
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+
+.references a {
+    color: #0000ff;
+}
 
 
 

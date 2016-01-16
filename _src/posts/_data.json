@@ -1,15 +1,29 @@
 {
+  "review-stochastic-cost-estimation-monte-carlo": {
+    "title": "Review of 'Stochastic Cost Estimation and Risk Analysis in Managing Software Projects' paper",
+    "description": "I found an interesting paper - 'Stochastic Cost Estimation and Risk Analysis in Managing Software Projects' - which presents a method to analyze project duration using Monte Carlo Simulation. Monte Carlo is a typical simulation method in Financial Engineering, so it's interesting to see the bridge between Financial Engineering and Quantitative Software Engineering",
+    "creationDate": "2016-01-16",
+    "categories": ["quantitative software engineering"],
+    "references": [
+      {
+        "author": "Connor, AM; MacDonell, SG",
+        "title" : "Stochastic cost estimation and risk analysis in managing software projects",
+        "citation" : "Proceedings of the ISCA 14th International Conference on Intelligent and Adaptive Systems and Software Engineering (IASSE). Toronto, Canada, ISCA, pp.140-144",
+        "link": "http://aut.researchgateway.ac.nz/handle/10292/1591"
+      }
+    ]
+  },
   "uncertainty-as-risk-in-software-project": {
-    "title": "Risk means Uncertainty in Financial Engineering, so is in Software Projects",
+    "title": "Risk means Uncertainty in Financial Engineering, so does in Software Projects",
     "description": "In Financial Engineering, the word 'risk' means uncertainty. For example, if you buy Facebook's stock you don't know its price tomorrow. That's uncertainty, and a risk. Similarly in software projects, you don't know when your project finishes. That is a risk too.",
     "creationDate": "2016-01-14",
-    "categories": ["quant software process"]
+    "categories": ["quantitative software engineering"]
   },
   "financial-engineering-in-software-projects": {
     "title": "Financial Engineering of Software Projects",
     "description": "Through the history of computers, we have seen explosive growth in the software industry, and people have made tremendous but still ever-growing investment in technologies and methodologies in software development.",
     "creationDate": "2016-01-13",
-    "categories": ["quant software process"]
+    "categories": ["quantitative software engineering"]
   },
   "about": {
     "title": "About Richard Imaoka",
