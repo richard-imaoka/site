@@ -19,6 +19,18 @@
                   <h1><%- title %></h1>
                   <p><%- description %></p>
                   <%- yield %>
+                  <% if (typeof references !== 'undefined' ) { %>
+                  <div>
+                    <h2>References</h2>
+                    <div class="references">
+                      <ol>
+                        <% for(var i in references){ %>
+                        <li><%- references[i].author %>, <a href="<%- references[i].link %>"><strong>"<%- references[i].title %>"</strong></a>, <%- references[i].citation %></li>
+                        <% } %>
+                      </ol>
+                    </div>
+                  </div>
+                  <% } %>
                 </div>
               </div>
             </div><!--/.blog-item-->

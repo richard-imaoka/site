@@ -1,4 +1,30 @@
 {
+  "technical-debt-from-a-single-line": {
+    "title": "Single Line of Source Code is still Technical Debt",
+    "description": "'Technical Debt' is a known metaphor in Software Engineering. Let's describe Technical Debt in terms of Financial debt",
+    "creationDate": "2016-01-17",
+    "categories": ["quantitative software engineering"],
+    "references": [
+      {
+        "author": "Vikas Hazrati",
+        "title" : "Code is Liability, the Less the Better",
+        "citation" : "InfoQ website, on May 18, 2011",
+        "link": "http://www.infoq.com/news/2011/05/less-code-is-better"
+      },
+      {
+        "author": "Martin Fowler",
+        "title" : "TechnicalDebt",
+        "citation" : "Martin Flower.com, 1 October 2003",
+        "link": "http://martinfowler.com/bliki/TechnicalDebt.html"
+      },
+      {
+        "author": "Ward Cunningham",
+        "title" : "Ward Explains Debt Metaphor",
+        "citation" : "Cunningham & Cunningham, Inc.",
+        "link": "http://c2.com/cgi/wiki?WardExplainsDebtMetaphor"
+      }
+    ]
+  },
   "review-stochastic-cost-estimation-monte-carlo": {
     "title": "Review of 'Stochastic Cost Estimation and Risk Analysis in Managing Software Projects' paper",
     "description": "I found an interesting paper - 'Stochastic Cost Estimation and Risk Analysis in Managing Software Projects' - which presents a method to analyze project duration using Monte Carlo Simulation. Monte Carlo is a typical simulation method in Financial Engineering, so it's interesting to see the bridge between Financial Engineering and Quantitative Software Engineering",
