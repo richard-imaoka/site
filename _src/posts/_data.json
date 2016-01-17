@@ -1,4 +1,18 @@
 {
+  "refactoring-and-technical-debt": {
+    "title": "Refactoring Software is Explained in Financial Accounting Context",
+    "description": "'Technical Debt' is a known metaphor in Software Engineering. We already explained how enhancement can be explained in the Financial Accounting context, so how it works for refactoring?",
+    "creationDate": "2016-01-17",
+    "categories": ["quantitative software engineering"],
+    "references": [
+      {
+        "author": "Martin Fowler",
+        "title" : "Refactoring Improving the Design of Existing Code",
+        "citation" : "Martin Flower.com",
+        "link": "http://martinfowler.com/books/refactoring.htmll"
+      }
+    ]
+  },
   "enhancement-and-technical-debt": {
     "title": "Software Enhancement is Explained in Financial Accounting Context",
     "description": "'Technical Debt' is a known metaphor in Software Engineering. So, how Financial Accounting theory helps you understand the relationship and enhancement and technical debt?",
@@ -24,7 +38,8 @@
         "link": "http://c2.com/cgi/wiki?WardExplainsDebtMetaphor"
       }
     ]
-  },  "technical-debt-from-a-single-line": {
+  },
+  "technical-debt-from-a-single-line": {
     "title": "Single Line of Source Code is still Technical Debt",
     "description": "'Technical Debt' is a known metaphor in Software Engineering. Let's describe Technical Debt in terms of Financial debt",
     "creationDate": "2016-01-17",

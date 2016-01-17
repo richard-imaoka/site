@@ -1,0 +1,57 @@
+<p>
+  The previous post, <a href="enhancement-and-technical-debt">Software Enhancement is Explained in Financial Accounting Context</a>,
+  showed how software enhancement can be explained from a Financial Accounting perspective.
+</p>
+
+<h2>Good refactoring only reduces Technical Debt</h2>
+<p>
+  Refactoring is an activity to clean up your code, and make it easier to maintain.
+  As <a href="http://martinfowler.com/books/refactoring.html">Martin Fowler said</a>,
+  it is to preserve the original behavior of the software, but still make it better designed.
+
+  <figure style="text-align:center">
+    <img src="/images/posts/refactoring1.png" style="width: 100%; max-width: 432px;">
+  </figure>
+
+  So, essentially the Technical Debt will be reduced without having to reduce software's value.
+
+  <figure style="text-align:center">
+    <img src="/images/posts/refactoring2.png" style="width: 100%; max-width: 477px;">
+  </figure>
+
+  As the Technical Debt was decreased, the software becomes easier to maintain, less error prone, and the mainteance cost will be saved.
+</p>
+
+<h2>Bad refactoring actually increases Technical Debt</h2>
+<p>
+  So far a happy scenario, but what happens when you do bad refactoring?
+
+  For example, you introduced unexpected bugs, or you chose wrong design or implementation so that it actually becomes difficult to maintain and change the code going forward.
+
+  <figure style="text-align:center">
+    <img src="/images/posts/refactoring3.png" style="width: 100%; max-width: 434px;">
+  </figure>
+
+  In such a case, total Technical Debt of the software is increased,
+
+  <figure style="text-align:center">
+    <img src="/images/posts/refactoring4.png" style="width: 100%; max-width: 462px;">
+  </figure>
+
+  And thus the maintenance cost is also increased. It is analogous to increase in Financial Debt causing increase in debt charge too.
+  You will see loss from this refactoring activity.
+</p>
+
+<h2>Bad Refactoring should be reverted immediately</h2>
+<p>
+  So, what to do, when you did bad refactoring? You revert it back!
+
+  Unfortunately, in practice, it is sometimes found that previous refactoring had unexpected bad impact, and you need to revert the refactoring.
+</p>
+
+<p>
+  The best practice in refactoring is to do it in very small steps. If you do large scale refactoring, and the problems are realized later, it gets much harder to revert to the original state.
+
+  So, if you cannot revert the refactoring, your software will operate in an inferior quality - more maintenance cost than before.
+
+</p>
