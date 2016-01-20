@@ -1,0 +1,59 @@
+<h2>RescueTime tracks your time usage by application, and web site</h2>
+
+<p>
+  <a href="https://www.rescuetime.com/">RescueTime</a> is a cloud-based application,
+  which tracks your time usage. From its website, it works as follows:
+
+  <blockquote>
+    <ul>
+      <li>Runs securely in the background on your computer and mobile devices.</li>
+      <li>Tracks time spent on applications and websites, giving you an accurate picture of your day.</li>
+      <li>Gives you detailed reports and data based on your activity.</li>
+    </ul>
+  </blockquote>
+
+  So, the detailed report looks like this.
+
+  <figure style="text-align:center">
+    <img src="/images/posts/rescuetime-3.png" style="width: 100%; max-width: 1034px;">
+  </figure>
+
+</p>
+
+<p>
+  To track the time usage, RescueTime desktop process automatically starts when you start your PC.
+  Then, when you move "focus" to (mouse click on) any application, then it tracks the time spent on the application,
+  until you move focus to another application.
+
+  <figure style="text-align:center">
+    <img src="/images/posts/rescuetime-1.png" style="width: 100%; max-width: 325px;">
+  </figure>
+
+  For web browsers, RescueTime can give more detailed tracking, by each web page.
+
+  <figure style="text-align:center">
+    <img src="/images/posts/rescuetime-2.png" style="width: 100%; max-width: 342px;">
+  </figure>
+
+  The collected time usage data is sent to RescueTime's cloud, and aggregated to show the report like shown at the top of this article.
+</p>
+
+<h2>RescueTime is very useful, but analysis from different aspects needed</h2>
+<p>
+  RescueTime, as it is not intended for software maintenance cost calculation (so it's not a complaint for RescueTime at all), there are challenges.
+</p>
+
+<p>
+  For example, if you use Text Editor to write code for your application, maybe "e-Sales", the time is recorded for Text Editor.
+
+  However, in such a case, you actually want the time recorded for e-Sales, not Text Editor.
+
+  (i.e.) RescueTime keeps track of applications you <strong>use</strong>, but you want to keep track of applications you <strong>support.</strong>
+</p>
+
+<p>
+  To more accurately calculate your software's maintenance cost,
+  you would also other differnet kinds of software metrics and develop your own cost calculation models based on various metrics.
+
+  We'll explore the possibilities of leveraging such metrics in later blog posts.
+</p>

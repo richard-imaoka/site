@@ -1,6 +1,7 @@
 {
   "globals": {
-    "title": "",
-    "description": ""
+    "title": "Quantitative Software Engineering by Richard Imaoka",
+    "description": "Quantitative Software Engineering info website created by Richard Imaoka, a professional programmer and an ameteura Quant. ",
+    "url": "http://richard-imaoka.github.io"
   }
 }

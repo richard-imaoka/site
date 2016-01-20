@@ -1,22 +1,48 @@
 {
+  "pricing-and-accounting-software-expenses-rescuetime": {
+    "title": "Pricing and Accounting Software - Expenses, Time-Tracking with RescueTime",
+    "description": "In the previous article, we demonstrated that if we know the time usage of each person, we can calculate the maintenance cost of software. Let's explore a method to track time usage here.",
+    "date": "2016-01-21",
+    "categories": ["quantitative software engineering"],
+    "references": [
+      {
+        "author": "Rescue Time",
+        "title" : "https://www.rescuetime.com",
+        "citation" : "Rescue Time website",
+        "link": "https://www.rescuetime.com"
+      }
+    ]
+  },
+  "pricing-and-accounting-software-expenses-time-tracking": {
+    "title": "Pricing and Accounting Software - Expenses, Time-Tracking for Maintenance Cost Calculation",
+    "description": "In the previous article, we demonstrated that if we know the time usage of each person, we can calculate the maintenance cost of software. Let's explore a method to track time usage here.",
+    "date": "2016-01-19",
+    "categories": ["quantitative software engineering"]
+  },
+  "pricing-and-accounting-software-expenses": {
+    "title": "Pricing and Accounting Software - Expenses",
+    "description": "Let's continue explaining software in terms of accounting",
+    "date": "2016-01-18",
+    "categories": ["quantitative software engineering"]
+  },
   "refactoring-and-technical-debt": {
     "title": "Refactoring Software is Explained in Financial Accounting Context",
     "description": "'Technical Debt' is a known metaphor in Software Engineering. We already explained how enhancement can be explained in the Financial Accounting context, so how it works for refactoring?",
-    "creationDate": "2016-01-17",
+    "date": "2016-01-17",
     "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "Martin Fowler",
         "title" : "Refactoring Improving the Design of Existing Code",
         "citation" : "Martin Flower.com",
-        "link": "http://martinfowler.com/books/refactoring.htmll"
+        "link": "http://martinfowler.com/books/refactoring.html"
       }
     ]
   },
   "enhancement-and-technical-debt": {
     "title": "Software Enhancement is Explained in Financial Accounting Context",
     "description": "'Technical Debt' is a known metaphor in Software Engineering. So, how Financial Accounting theory helps you understand the relationship and enhancement and technical debt?",
-    "creationDate": "2016-01-17",
+    "date": "2016-01-17",
     "categories": ["quantitative software engineering"],
     "references": [
       {
@@ -42,7 +68,7 @@
   "technical-debt-from-a-single-line": {
     "title": "Single Line of Source Code is still Technical Debt",
     "description": "'Technical Debt' is a known metaphor in Software Engineering. Let's describe Technical Debt in terms of Financial debt",
-    "creationDate": "2016-01-17",
+    "date": "2016-01-17",
     "categories": ["quantitative software engineering"],
     "references": [
       {
@@ -68,7 +94,7 @@
   "review-stochastic-cost-estimation-monte-carlo": {
     "title": "Review of 'Stochastic Cost Estimation and Risk Analysis in Managing Software Projects' paper",
     "description": "I found an interesting paper - 'Stochastic Cost Estimation and Risk Analysis in Managing Software Projects' - which presents a method to analyze project duration using Monte Carlo Simulation. Monte Carlo is a typical simulation method in Financial Engineering, so it's interesting to see the bridge between Financial Engineering and Quantitative Software Engineering",
-    "creationDate": "2016-01-16",
+    "date": "2016-01-16",
     "categories": ["quantitative software engineering"],
     "references": [
       {
@@ -82,17 +108,17 @@
   "uncertainty-as-risk-in-software-project": {
     "title": "Risk means Uncertainty in Financial Engineering, so does in Software Projects",
     "description": "In Financial Engineering, the word 'risk' means uncertainty. For example, if you buy Facebook's stock you don't know its price tomorrow. That's uncertainty, and a risk. Similarly in software projects, you don't know when your project finishes. That is a risk too.",
-    "creationDate": "2016-01-14",
+    "date": "2016-01-14",
     "categories": ["quantitative software engineering"]
   },
   "financial-engineering-in-software-projects": {
     "title": "Financial Engineering of Software Projects",
     "description": "Through the history of computers, we have seen explosive growth in the software industry, and people have made tremendous but still ever-growing investment in technologies and methodologies in software development.",
-    "creationDate": "2016-01-13",
+    "date": "2016-01-13",
     "categories": ["quantitative software engineering"]
   },
   "about": {
     "title": "About Richard Imaoka",
-    "description": "About Richard Imaoka - a professional programmer, and an amateur quant."
+    "description": "About Richard Imaoka - a professional programmer, and an amateur Quant."
   }
 }
