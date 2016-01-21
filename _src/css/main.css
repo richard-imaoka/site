@@ -2120,6 +2120,11 @@ ul.faq li > div h3 {
   margin-bottom: 45px;
 }
 
+.blog .blog-item img {
+    max-width: 100%;
+    height: auto;
+}
+
 .blog .blog-item .blog-content {
   padding-bottom: 25px;
 }
