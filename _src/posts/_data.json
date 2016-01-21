@@ -1,4 +1,10 @@
 {
+  "pricing-and-accounting-software-income": {
+    "title": "Pricing and Accounting Software - Income",
+    "description": "We have looked into accounting for software about its expense in earlier articles. This articles analyzes the income side of software accounting.",
+    "date": "2016-01-21",
+    "categories": ["quantitative software engineering"]
+  },
   "pricing-and-accounting-software-expenses-rescuetime": {
     "title": "Pricing and Accounting Software - Expenses, Time-Tracking with RescueTime",
     "description": "In the previous article, we demonstrated that if we know the time usage of each person, we can calculate the maintenance cost of software. Let's explore a method to track time usage here.",
