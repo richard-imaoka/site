@@ -1,4 +1,24 @@
 {
+  "pricing-and-accounting-software-debt": {
+    "title": "Pricing and Accounting Software - Debt",
+    "description": "In this article we'll review Financial and Technical debt again. We will see what makes us software call in the 'debt' metaphor, and ",
+    "date": "2016-01-22",
+    "categories": ["quantitative software engineering"],
+    "references": [
+      {
+        "author": "@kellan",
+        "title" : "Towards an understanding of technical debt",
+        "citation" : "https://medium.com/@kellan",
+        "link": "https://medium.com/@kellan/towards-an-understanding-of-technical-debt-ae0f97cc0553#.r6mlbeosv"
+      },
+      {
+        "author": "Ward Cunningham",
+        "title" : "Ward Explains Debt Metaphor",
+        "citation" : "Cunningham & Cunningham, Inc.",
+        "link": "http://c2.com/cgi/wiki?WardExplainsDebtMetaphor"
+      }
+    ]
+  },
   "pricing-and-accounting-software-asset": {
     "title": "Pricing and Accounting Software - Asset",
     "description": "In this article we explore possibilities of accounting software as asset. In previous articles, we have investigated ideas of representing software in terms of accounting, although they are not strict argument in accounting theories",
