@@ -1,4 +1,24 @@
 {
+  "pricing-and-accounting-software-asset": {
+    "title": "Pricing and Accounting Software - Asset",
+    "description": "In this article we explore possibilities of accounting software as asset. In previous articles, we have investigated ideas of representing software in terms of accounting, although they are not strict argument in accounting theories",
+    "date": "2016-01-22",
+    "categories": ["quantitative software engineering"],
+    "references": [
+      {
+        "author": "InvestoPedia",
+        "title" : "InvestoPedia",
+        "citation" : "Discounted Cash Flow (DCF)",
+        "link": "http://www.investopedia.com/terms/d/dcf.aspm"
+      },
+      {
+        "author": "InvestoPedia",
+        "title" : "InvestoPedia",
+        "citation" : "Intangible Asset",
+        "link": "http://www.investopedia.com/terms/i/intangibleasset.aspm"
+      }
+    ]
+  },
   "pricing-and-accounting-software-income": {
     "title": "Pricing and Accounting Software - Income",
     "description": "We have looked into accounting for software about its expense in earlier articles. This articles analyzes the income side of software accounting.",
