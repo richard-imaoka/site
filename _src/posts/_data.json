@@ -1,4 +1,30 @@
 {
+  "software-engineering-craftmanship-vs-quantitative-analysis": {
+    "title": "Software Engineering, complemented by Financial Engineering for quantitative analysis, business decisions",
+    "description": "Programmers are passionate about better software, and better methodologies. We have seen tremendous growth in software technologies and methodologies, but yet business decisions on software projects haven't been improved over the last 20 to 30 years.",
+    "date": "2016-01-23",
+    "categories": ["quantitative software engineering"],
+    "references": [
+      {
+        "author" : "Signed on by more than 17,000 developers",
+        "title"  : "Software Craftsmanship Manifesto",
+        "citation" : "Manifesto for Software Craftsmanship, 2009",
+        "link": "http://manifesto.softwarecraftsmanship.org/"
+      },
+      {
+      "author" : "International Project Leadership Academy",
+      "title"  : "Facts and Figures",
+      "citation" : "McKinsey & Company in conjunction with the University of Oxford, 2012",
+      "link": "http://calleam.com/WTPF/?page_id=1445"
+      },
+      {
+        "author" : "Taylor Putnam-Majarian and Doug Putnam",
+        "title"  : "The Most Common Reasons Why Software Projects Fail",
+        "citation" : "InfoQ.com article on Jul 13, 2015",
+        "link": "http://www.infoq.com/articles/software-failure-reasons"
+      }
+    ]
+  },
   "journals-of-systems-and-software": {
     "title": "Introducing Springer's Journals of Systems and Software",
     "description": "Let me introduce an academic journal, ' Journals of Systems and Software' published by Springer. Like other scientific fields, you can find advanced and theoretical analysis of software engineering in academic literature.",
