@@ -1,0 +1,11 @@
+<meta property="og:title" content="<%- title %>">
+<meta property="og:type" content="blog">
+<meta property="og:description" content="<%- description %>">
+<% var path = url %>
+<% for( var i in current.path ){ %>
+  <% path = path + "/" + current.path[i] + ".html" %>
+<% } %>
+<meta property="og:url" content="<%- path %>">
+<meta property="og:image" content="<%- thumbnail %>">
+<meta property="og:site_name" content="<%- site_name %>">
+<meta property="og:email" content="richard.e.imaoka@gmail.com">
