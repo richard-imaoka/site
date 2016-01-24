@@ -1,4 +1,18 @@
 {
+  "journals-of-systems-and-software": {
+    "title": "Introducing Springer's Journals of Systems and Software",
+    "description": "Let me introduce an academic journal, ' Journals of Systems and Software' published by Springer. Like other scientific fields, you can find advanced and theoretical analysis of software engineering in academic literature.",
+    "date": "2016-01-23",
+    "categories": ["quantitative software engineering"],
+    "references": [
+      {
+        "author": "Springer",
+        "title" : "Journal of Systems and Software",
+        "citation" : "publishes papers covering all aspects of software engineering and related hardware-software-systems issues.",
+        "link": "http://www.journals.elsevier.com/journal-of-systems-and-software/"
+      }
+    ]
+  },
   "pricing-and-accounting-software-debt": {
     "title": "Pricing and Accounting Software - Debt",
     "description": "In this article we'll review Financial and Technical debt again. We will see what makes us software call in the 'debt' metaphor, and ",
