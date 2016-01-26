@@ -1,4 +1,10 @@
 {
+  "arbitrage-software-intro": {
+    "title": "Pricing Software in Financial Arbitrage Context - Intro",
+    "description": "Let's start a discussion on pricing software under a Financial arbitrage context. Pricing a contract under the arbitrage context is a fundamental technique in Finance, so we are introducing the same technique in software pricing.",
+    "date": "2016-01-26",
+    "categories": ["quantitative software engineering"]
+  },
   "software-engineering-craftmanship-vs-quantitative-analysis": {
     "title": "Software Engineering, complemented by Financial Engineering for quantitative analysis, business decisions",
     "description": "Programmers are passionate about better software, and better methodologies. We have seen tremendous growth in software technologies and methodologies, but yet business decisions on software projects haven't been improved over the last 20 to 30 years.",
