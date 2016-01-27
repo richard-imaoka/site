@@ -2123,6 +2123,7 @@ ul.faq li > div h3 {
 .blog .blog-item img {
     max-width: 100%;
     height: auto;
+
 }
 
 .blog .blog-item .blog-content {
@@ -2150,11 +2151,12 @@ ul.faq li > div h3 {
   font-size: 14px;
 }
 
-.blog .blog-item .blog-content figcaption {
+.blog .blog-item .blog-content figure {
     text-align: center;
 }
 
 .blog .blog-item .blog-content figcaption {
+    text-align: center;
     font-size: 12px;
 }
 .post-tags {

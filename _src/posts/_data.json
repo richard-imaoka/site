@@ -1,4 +1,16 @@
 {
+  "arbitrage-software-selling": {
+    "title": "Pricing Software in Financial Arbitrage Context - Forms of selling software",
+    "description": "",
+    "date": "2016-01-27",
+    "categories": ["quantitative software engineering"]
+  },
+  "arbitrage-software-buying": {
+    "title": "Pricing Software in Financial Arbitrage Context - Forms of buying software",
+    "description": "",
+    "date": "2016-01-27",
+    "categories": ["quantitative software engineering"]
+  },
   "arbitrage-software-intro": {
     "title": "Pricing Software in Financial Arbitrage Context - Intro",
     "description": "Let's start a discussion on pricing software under a Financial arbitrage context. Pricing a contract under the arbitrage context is a fundamental technique in Finance, so we are introducing the same technique in software pricing.",
