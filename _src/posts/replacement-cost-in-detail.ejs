@@ -1,25 +1,73 @@
+<h2>Balance between cost-saving and replacement cost</h2>
 <figure>
   <img src="<%- cloudinary%>/images/posts/arbitrage-software-replacement-seesaw.png">
 </figure>
+As in the <a href="http://localhost:3000/posts/end-to-end-state-comparison-not-complete.html">previous article</a>, "current state" vs. "after replacement done" comparison, is not complete. You need to think about cost saving vs replacement.
+
+<h2>Chart of cost and effort throughout the replacement</h2>
+<p>So, a typical system replacement project might look like this, in terms of developer's effort over time.</p>
 
 <figure>
   <img src="<%- cloudinary%>/images/posts/arbitrage-software-replacement-diagram1.png">
-  <figcaption>
-    <span style="font-size: 20px"><strong>Selling Futures contract</strong></span>
-  </figcaption>
 </figure>
 
+<ul>
+  <li>Development phase</li>
+    <ul>
+      <li>While developing the new software, the legacy software is still used</li>
+    </ul>
+  <li>New software rolled out</li>
+    <ul>
+      <li>There could be a spike of issues, right after roll out</li>
+      <li>Legacy software is run in parallel with minimal maintenance, then retired afterwards</li>
+    </ul>
+  <li>Stable phase</li>
+    <ul>
+      <li>After the new software completely released the legacy one, it is expected to run in a lower cost</li>
+    </ul>
+</ul>
+
+<h2>Comparison on the chart</h2>
+<p>
+  Adding up the new and legacy software development + maintenance cost, the chart looks like this.
+</p>
 <figure>
   <img src="<%- cloudinary%>/images/posts/arbitrage-software-replacement-diagram2.png">
-  <figcaption>
-    <span style="font-size: 20px"><strong>Selling Futures contract</strong></span>
-  </figcaption>
 </figure>
 
+<p>
+  So, the replacement cost is additional cost you pay, compared to the legacy system maintenance cost.
+  And the cost-saving effect is the difference between the new and legacy systems, over time.
+</p>
 
 <figure>
   <img src="<%- cloudinary%>/images/posts/arbitrage-software-replacement-diagram3.png">
-  <figcaption>
-    <span style="font-size: 20px"><strong>Selling Futures contract</strong></span>
-  </figcaption>
 </figure>
+
+<p>
+  If the cost-saving effect (i.e. the blue area) is bigger than the replacement cost (i.e. the pink area),
+  the replacement was successful. Note that the blue area continues to exist over a long period of time,
+  than what is shown in the the above chart.
+</p>
+
+<h2>You have to 1) think about probability, and 2) recognize immediate cost is more weighed than cost in the future</h2>
+
+<p>
+  Say, 3 years later, you get huge cost-saving effect, and as the new software is usually run for a long period of time,
+  do we always better replace legacy high-maintenance software to a newer software?
+</p>
+
+<p>
+  Not actually. You need to consider:
+  <ul>
+    <li>Replacement cost is probabilistic, (e.g.) the development might take longer than you expected</li>
+    <li>Cost-saving effect is also probabilistic (e.g.) new software might be of higher maintenance</li>
+    <li>Time Value of money</li>
+      <ul>
+        <li>In economics, <strong>current</strong> cost is <strong>weighed more</strong> than cost in the future</li>
+        <li>So, replacement cost in near future, is weighed more than cost-saving effect over time which happens later</li>
+        <li>(i.e.) you need bigger (area of) cost-saving, than replacement cost </li>
+        <li>We'll cover this in more detail in other articles</li>
+      </ul>
+  </ul>
+</p>
