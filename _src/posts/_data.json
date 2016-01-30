@@ -1,15 +1,29 @@
 {
-  "arbitrage-software-liquidity": {
-    "title": "Software Liquidity is how easy to replace software",
-    "description": "Financial arbitrage",
-    "date": "2016-01-29",
-    "categories": ["quantitative software engineering"]
-  },
-  "arbitrage-software-replacement": {
-    "title": "Software replacement as an arbitrage activity",
-    "description": "Financial arbitrage",
-    "date": "2016-01-29",
-    "categories": ["quantitative software engineering"]
+  "end-to-end-state-comparison-not-complete": {
+    "title": "New Framework, Library? Think of the Balance between Cost-Saving and Replacement-Cost Effects",
+    "description": "Developers often know more modern technologies used outside their companies, which would resolve their problems, but they need to stick to the current technology stack. Let's discuss why that happens in more detail, to remove blocks to go to the right direction.",
+    "date": "2016-01-30",
+    "categories": ["quantitative software engineering"],
+    "references": [
+      {
+        "author": "Vikas Hazrati",
+        "title" : "Code is Liability, the Less the Better",
+        "citation" : "InfoQ website, on May 18, 2011",
+        "link": "http://www.infoq.com/news/2011/05/less-code-is-better"
+      },
+      {
+        "author": "Martin Fowler",
+        "title" : "TechnicalDebt",
+        "citation" : "Martin Flower.com, 1 October 2003",
+        "link": "http://martinfowler.com/bliki/TechnicalDebt.html"
+      },
+      {
+        "author": "Ward Cunningham",
+        "title" : "Ward Explains Debt Metaphor",
+        "citation" : "Cunningham & Cunningham, Inc.",
+        "link": "http://c2.com/cgi/wiki?WardExplainsDebtMetaphor"
+      }
+    ]
   },
   "arbitrage-software-complex-derivative-2": {
     "title": "Software as a complex derivative contract",

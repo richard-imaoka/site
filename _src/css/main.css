@@ -2118,12 +2118,12 @@ ul.faq li > div h3 {
 .blog .blog-item .img-blog {
   border-radius: 5px;
   margin-bottom: 45px;
+
 }
 
 .blog .blog-item img {
     max-width: 100%;
     height: auto;
-
 }
 
 .blog .blog-item .blog-content {
@@ -2153,6 +2153,7 @@ ul.faq li > div h3 {
 
 .blog .blog-item .blog-content figure {
     text-align: center;
+    margin: 14px;
 }
 
 .blog .blog-item .blog-content figcaption {
