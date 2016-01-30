@@ -1,4 +1,10 @@
 {
+  "replacement-cost-in-detail": {
+    "title": "New Framework, Library? Think of the Balance between Cost-Saving and Replacement-Cost Effects",
+    "description": "Developers often know more modern technologies used outside their companies, which would resolve their problems, but they need to stick to the current technology stack. Let's discuss why that happens in more detail, to remove blocks to go to the right direction.",
+    "date": "2016-01-30",
+    "categories": ["quantitative software engineering"]
+  },
   "end-to-end-state-comparison-not-complete": {
     "title": "New Framework, Library? Think of the Balance between Cost-Saving and Replacement-Cost Effects",
     "description": "Developers often know more modern technologies used outside their companies, which would resolve their problems, but they need to stick to the current technology stack. Let's discuss why that happens in more detail, to remove blocks to go to the right direction.",
