@@ -1,4 +1,16 @@
 {
+  "arbitrage-software-liquidity": {
+    "title": "Software Liquidity is how easy to replace software",
+    "description": "Financial arbitrage",
+    "date": "2016-01-29",
+    "categories": ["quantitative software engineering"]
+  },
+  "arbitrage-software-replacement": {
+    "title": "Software replacement as an arbitrage activity",
+    "description": "Financial arbitrage",
+    "date": "2016-01-29",
+    "categories": ["quantitative software engineering"]
+  },
   "arbitrage-software-complex-derivative-2": {
     "title": "Software as a complex derivative contract",
     "description": "To make right investment decisions for software, you need to correctly analyze the cost and revenue structure of the software. Thinking about Financial derivatives and its arbitrage relationship, you can tell how to price financial contracts.",
