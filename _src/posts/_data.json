@@ -1,8 +1,20 @@
 {
+  "liquidity-and-monolithic": {
+    "title": "Software Liquidity and Monolithic Spread",
+    "description": "As in the previous article, software is an illiquid asset and its replacement cost tends to be very high. However, there is a way to recude replacement cost. Since the high cost is coming from liquidity, if you make the software more liquid,  (i.e.) easier to get rid of or create, it can be a cost saving opportunity.",
+    "date": "2016-02-01",
+    "categories": ["quantitative software engineering"]
+  },
+  "liquidity": {
+    "title": "Software Liquidity and cost saving",
+    "description": "Liquidity in Finance means how easily you can find buyers and sellers of an asset. Applying this liquidity concept to software (i.e.) how easy to create and get rid of software,  gives you insight about the investment price you need to make.",
+    "date": "2016-02-01",
+    "categories": ["quantitative software engineering"]
+  },
   "arbitrage-and-replacement": {
-    "title": "New Framework, Library? Think of the Balance between Cost-Saving and Replacement-Cost Effects",
-    "description": "Developers often know more modern technologies used outside their companies, which would resolve their problems, but they need to stick to the current technology stack. Let's discuss why that happens in more detail, to remove blocks to go to the right direction.",
-    "date": "2016-01-30",
+    "title": "Software Replacement as Risk Arbitrage",
+    "description": "If you decided to replace existing software for a cost saving purpose, the cost saving effect is not guaranteed, but it is a probabilistic  outcome.",
+    "date": "2016-01-31",
     "categories": ["quantitative software engineering"]
   },
   "replacement-cost-in-detail": {
