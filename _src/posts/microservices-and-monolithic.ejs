@@ -1,0 +1,50 @@
+
+<h2>Small-Component software system is easier to replace than huge monolithic system</h2>
+<p>
+  As we see in the previous article, generally a software system consisting of smaller components is easier to replace, than a monolithic system.
+  It is almost always easier to replace something smaller than bigger.
+</p>
+
+<figure>
+  <img src="<%- cloudinary%>/images/posts/arbitrage-software-liquidity-replace-spread.png">
+</figure>
+
+<h2>However, there is a trade-off when splitting a system into smaller components</h2>
+<p>
+  So, it is likely any software system is replaced at some point, and to keep up with the speed of changing in today's market,
+  is it always a better strategy to build up a software system with fine-grained small components?
+</p>
+
+<h2>An example - Micro-Service discussion highlights this trade-off</h2>
+<p>
+  The below article by Martin Fowler exactly discussed this trade off.
+  Smaller-component systems have less productivity in everyday maintenance (i.e. higher maintenance cost) compared to a monolithic system, <strong>if the system is not too complex</strong> .
+</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">MicroservicePremium by Martin Fowler: <a href="http://t.co/ffuQrPTeJZ">http://t.co/ffuQrPTeJZ</a> Comments: <a href="https://t.co/SfcGVBtZ9A">https://t.co/SfcGVBtZ9A</a></p>&mdash; Hacker News (@HNTweets) <a href="https://twitter.com/HNTweets/status/598490389964689410">May 13, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2>Conclusion: 1) Too big, complex system -> split it, 2) not too big -> take a balance</h2>
+<p>
+  As discussed by Martin, a general strategy is:
+</p>
+
+<blockquote>"don't even consider microservices unless you have a system that's too complex to manage as a monolith"</blockquote>
+
+<p>
+  This means that if your system is a too big and complex monolith, chances are that if you split it into smaller pieces (probably in micro-service sytle),
+  you get benefit in both daily maintenance and replacement.
+</p>
+
+<p>
+  If your system is reasonably sized, but still feels like bit the size and the complexity is preventing you from necessary replacement,
+  it is a more difficult situation. You would still get a replacement cost benefit from split into smaller components, but it needs to be compared against maintenance cost change.
+</p>
+
+<p>
+  To make a decision on start splitting your system, and make the split work effective, you would need:
+  <ul>
+    <li>Cost calculation model and right metrics to validate replacement pays off</li>
+    <li>Iterative reviews to see if the replacement work still pays off</li>
+  </ul>
+</p>

@@ -1,4 +1,28 @@
 {
+  "software-resell-impossible": {
+    "title": "You caannot Re-Sell your Software",
+    "description": "Unlike some consumer products like books and computers (PCs), or financial assets like stocks and bonds, there are no secondary (or used) markets for software, where people actively buy products and assets which were once bought by someone else. ",
+    "date": "2016-02-05",
+    "categories": ["quantitative software engineering"]
+  },
+  "software-longerm-buy-sell": {
+    "title": "Software Development and M&A, long-term investment in software",
+    "description": "When you cannot find read-made software satisfying your needs, you make a long-term investment to develop custom software, or buy another company as a whole to take over their business and software assets.",
+    "date": "2016-02-05",
+    "categories": ["quantitative software engineering"]
+  },
+  "software-buy-sell": {
+    "title": "Software Buy & Sell forms, Packaged Software and Cloud Subscription",
+    "description": "Buying and Selling software come in different forms, so let's review cases of buying a packaged software, or subscribe to a cloud service",
+    "date": "2016-02-03",
+    "categories": ["quantitative software engineering"]
+  },
+  "microservices-and-monolithic": {
+    "title": "Monolithic vs. Microservice trade-off, Replacement and Maintenance",
+    "description": "Almost always a larger system is harder to replace, than a system with smaller components. So thinking about replacement cost, is it always better to construct a system with fine-grained small components? Not actually, there is a trade-off on it.",
+    "date": "2016-02-01",
+    "categories": ["quantitative software engineering"]
+  },
   "liquidity-and-monolithic": {
     "title": "Software Liquidity and Monolithic Spread",
     "description": "As in the previous article, software is an illiquid asset and its replacement cost tends to be very high. However, there is a way to recude replacement cost. Since the high cost is coming from liquidity, if you make the software more liquid,  (i.e.) easier to get rid of or create, it can be a cost saving opportunity.",
