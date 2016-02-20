@@ -1,6 +1,18 @@
 {
+  "market-efficiency-and-arbitrage": {
+    "title": "Market Efficiency and Arbitrage",
+    "description": "Other than buying and selling software, another form of economic activity on software is retirement and replacement.",
+    "date": "2016-02-08",
+    "categories": ["quantitative software engineering"]
+  },
+  "software-retirement-replacement": {
+    "title": "Retirement and Replacement of software",
+    "description": "Other than buying and selling software, another form of economic activity on software is retirement and replacement.",
+    "date": "2016-02-06",
+    "categories": ["quantitative software engineering"]
+  },
   "software-resell-impossible": {
-    "title": "You caannot Re-Sell your Software",
+    "title": "You cannot Re-Sell your Software",
     "description": "Unlike some consumer products like books and computers (PCs), or financial assets like stocks and bonds, there are no secondary (or used) markets for software, where people actively buy products and assets which were once bought by someone else. ",
     "date": "2016-02-05",
     "categories": ["quantitative software engineering"]
