@@ -2,68 +2,57 @@
   "market-efficiency-and-arbitrage": {
     "title": "Market Efficiency and Arbitrage",
     "description": "Other than buying and selling software, another form of economic activity on software is retirement and replacement.",
-    "date": "2016-02-08",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-02-08"
   },
   "software-retirement-replacement": {
     "title": "Retirement and Replacement of software",
     "description": "Other than buying and selling software, another form of economic activity on software is retirement and replacement.",
-    "date": "2016-02-06",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-02-06"
   },
   "software-resell-impossible": {
-    "title": "You cannot Re-Sell your Software",
+    "title": "You caannot Re-Sell your Software",
     "description": "Unlike some consumer products like books and computers (PCs), or financial assets like stocks and bonds, there are no secondary (or used) markets for software, where people actively buy products and assets which were once bought by someone else. ",
-    "date": "2016-02-05",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-02-05"
   },
   "software-longerm-buy-sell": {
     "title": "Software Development and M&A, long-term investment in software",
     "description": "When you cannot find read-made software satisfying your needs, you make a long-term investment to develop custom software, or buy another company as a whole to take over their business and software assets.",
-    "date": "2016-02-05",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-02-05"
   },
   "software-buy-sell": {
     "title": "Software Buy & Sell forms, Packaged Software and Cloud Subscription",
     "description": "Buying and Selling software come in different forms, so let's review cases of buying a packaged software, or subscribe to a cloud service",
-    "date": "2016-02-03",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-02-03"
   },
   "microservices-and-monolithic": {
     "title": "Monolithic vs. Microservice trade-off, Replacement and Maintenance",
     "description": "Almost always a larger system is harder to replace, than a system with smaller components. So thinking about replacement cost, is it always better to construct a system with fine-grained small components? Not actually, there is a trade-off on it.",
-    "date": "2016-02-01",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-02-01"
   },
   "liquidity-and-monolithic": {
     "title": "Software Liquidity and Monolithic Spread",
     "description": "As in the previous article, software is an illiquid asset and its replacement cost tends to be very high. However, there is a way to recude replacement cost. Since the high cost is coming from liquidity, if you make the software more liquid,  (i.e.) easier to get rid of or create, it can be a cost saving opportunity.",
-    "date": "2016-02-01",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-02-01"
   },
   "liquidity": {
     "title": "Software Liquidity and cost saving",
     "description": "Liquidity in Finance means how easily you can find buyers and sellers of an asset. Applying this liquidity concept to software (i.e.) how easy to create and get rid of software,  gives you insight about the investment price you need to make.",
-    "date": "2016-02-01",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-02-01"
   },
   "arbitrage-and-replacement": {
     "title": "Software Replacement as Risk Arbitrage",
     "description": "If you decided to replace existing software for a cost saving purpose, the cost saving effect is not guaranteed, but it is a probabilistic  outcome.",
-    "date": "2016-01-31",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-31"
   },
   "replacement-cost-in-detail": {
     "title": "Software Replacement: Comparison between Cost-Saving and Replacement-Cost Effects",
     "description": "When replacing legacy software with new one, for cost saving purposes, you need to think about replacement cost as well. And comparison cannot be solid as it is probabilistic.",
-    "date": "2016-01-30",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-30"
   },
   "end-to-end-state-comparison-not-complete": {
     "title": "New Framework, Library? Think of the Balance between Cost-Saving and Replacement-Cost Effects",
     "description": "Developers often know more modern technologies used outside their companies, which would resolve their problems, but they need to stick to the current technology stack. Let's discuss why that happens in more detail, to remove blocks to go to the right direction.",
     "date": "2016-01-30",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "Vikas Hazrati",
@@ -88,38 +77,32 @@
   "arbitrage-software-complex-derivative-2": {
     "title": "Software as a complex derivative contract",
     "description": "To make right investment decisions for software, you need to correctly analyze the cost and revenue structure of the software. Thinking about Financial derivatives and its arbitrage relationship, you can tell how to price financial contracts.",
-    "date": "2016-01-28",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-28"
   },
   "arbitrage-software-complex-derivative-1": {
     "title": "Software as a complex derivative contract",
     "description": "To make right investment decisions for software, you need to correctly analyze the cost and revenue structure of the software. You can assume software as a complex derivative contract to make this analysis.",
-    "date": "2016-01-28",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-28"
   },
   "arbitrage-software-selling": {
     "title": "Pricing Software in Financial Arbitrage Context - Forms of selling software",
     "description": "",
-    "date": "2016-01-27",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-27"
   },
   "arbitrage-software-buying": {
     "title": "Pricing Software in Financial Arbitrage Context - Forms of buying software",
     "description": "",
-    "date": "2016-01-27",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-27"
   },
   "arbitrage-software-intro": {
     "title": "Pricing Software in Financial Arbitrage Context - Intro",
     "description": "Let's start a discussion on pricing software under a Financial arbitrage context. Pricing a contract under the arbitrage context is a fundamental technique in Finance, so we are introducing the same technique in software pricing.",
-    "date": "2016-01-26",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-26"
   },
   "software-engineering-craftmanship-vs-quantitative-analysis": {
     "title": "Software Engineering, complemented by Financial Engineering for quantitative analysis, business decisions",
     "description": "Programmers are passionate about better software, and better methodologies. We have seen tremendous growth in software technologies and methodologies, but yet business decisions on software projects haven't been improved over the last 20 to 30 years.",
     "date": "2016-01-23",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author" : "Signed on by more than 17,000 developers",
@@ -145,7 +128,6 @@
     "title": "Introducing Springer's Journals of Systems and Software",
     "description": "Let me introduce an academic journal, ' Journals of Systems and Software' published by Springer. Like other scientific fields, you can find advanced and theoretical analysis of software engineering in academic literature.",
     "date": "2016-01-23",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "Springer",
@@ -159,7 +141,6 @@
     "title": "Pricing and Accounting Software - Debt",
     "description": "In this article we'll review Financial and Technical debt again. We will see what makes us software call in the 'debt' metaphor, and ",
     "date": "2016-01-22",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "@kellan",
@@ -179,7 +160,6 @@
     "title": "Pricing and Accounting Software - Asset",
     "description": "In this article we explore possibilities of accounting software as asset. In previous articles, we have investigated ideas of representing software in terms of accounting, although they are not strict argument in accounting theories",
     "date": "2016-01-22",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "InvestoPedia",
@@ -198,14 +178,12 @@
   "pricing-and-accounting-software-income": {
     "title": "Pricing and Accounting Software - Income",
     "description": "We have looked into accounting for software about its expense in earlier articles. This articles analyzes the income side of software accounting.",
-    "date": "2016-01-21",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-21"
   },
   "pricing-and-accounting-software-expenses-rescuetime": {
     "title": "Pricing and Accounting Software - Expenses, Time-Tracking with RescueTime",
     "description": "In the previous article, we demonstrated that if we know the time usage of each person, we can calculate the maintenance cost of software. Let's explore a method to track time usage here.",
     "date": "2016-01-21",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "Rescue Time",
@@ -218,20 +196,17 @@
   "pricing-and-accounting-software-expenses-time-tracking": {
     "title": "Pricing and Accounting Software - Expenses, Time-Tracking for Maintenance Cost Calculation",
     "description": "In the previous article, we demonstrated that if we know the time usage of each person, we can calculate the maintenance cost of software. Let's explore a method to track time usage here.",
-    "date": "2016-01-19",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-19"
   },
   "pricing-and-accounting-software-expenses": {
     "title": "Pricing and Accounting Software - Expenses",
     "description": "Let's continue explaining software in terms of accounting",
-    "date": "2016-01-18",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-18"
   },
   "refactoring-and-technical-debt": {
     "title": "Refactoring Software is Explained in Financial Accounting Context",
     "description": "'Technical Debt' is a known metaphor in Software Engineering. We already explained how enhancement can be explained in the Financial Accounting context, so how it works for refactoring?",
     "date": "2016-01-17",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "Martin Fowler",
@@ -245,7 +220,6 @@
     "title": "Software Enhancement is Explained in Financial Accounting Context",
     "description": "'Technical Debt' is a known metaphor in Software Engineering. So, how Financial Accounting theory helps you understand the relationship and enhancement and technical debt?",
     "date": "2016-01-17",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "Vikas Hazrati",
@@ -271,7 +245,6 @@
     "title": "Single Line of Source Code is still Technical Debt",
     "description": "'Technical Debt' is a known metaphor in Software Engineering. Let's describe Technical Debt in terms of Financial debt",
     "date": "2016-01-17",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "Vikas Hazrati",
@@ -297,7 +270,6 @@
     "title": "Review of 'Stochastic Cost Estimation and Risk Analysis in Managing Software Projects' paper",
     "description": "I found an interesting paper - 'Stochastic Cost Estimation and Risk Analysis in Managing Software Projects' - which presents a method to analyze project duration using Monte Carlo Simulation. Monte Carlo is a typical simulation method in Financial Engineering, so it's interesting to see the bridge between Financial Engineering and Quantitative Software Engineering",
     "date": "2016-01-16",
-    "categories": ["quantitative software engineering"],
     "references": [
       {
         "author": "Connor, AM; MacDonell, SG",
@@ -310,14 +282,12 @@
   "uncertainty-as-risk-in-software-project": {
     "title": "Risk means Uncertainty in Financial Engineering, so does in Software Projects",
     "description": "In Financial Engineering, the word 'risk' means uncertainty. For example, if you buy Facebook's stock you don't know its price tomorrow. That's uncertainty, and a risk. Similarly in software projects, you don't know when your project finishes. That is a risk too.",
-    "date": "2016-01-14",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-14"
   },
   "financial-engineering-in-software-projects": {
     "title": "Financial Engineering of Software Projects",
     "description": "Through the history of computers, we have seen explosive growth in the software industry, and people have made tremendous but still ever-growing investment in technologies and methodologies in software development.",
-    "date": "2016-01-13",
-    "categories": ["quantitative software engineering"]
+    "date": "2016-01-13"
   },
   "about": {
     "title": "About Richard Imaoka",
